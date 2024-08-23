@@ -250,7 +250,7 @@ services:
     image: systementry-7788
     container_name: systementry-7788
     ports: 
-      - 8119:8119
+      - 8120:8120
     env_file: .env
     depends_on:
       - mongo
